@@ -1,0 +1,26 @@
+# Environment files (NEVER push these!)
+.env
+.env.local
+.env.production
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+*.test
+coverage.out
